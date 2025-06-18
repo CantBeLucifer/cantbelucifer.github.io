@@ -81,7 +81,6 @@ const Npcs = {
   //Calamity Mod
   SeaKing: "Sea King",
   Bandit: "Bandit",
-  DrunkPrincess: "Drunk Princess",
   Archmage: "Archmage",
   BrimstoneWitch: "Brimstone Witch",
   //Fargo's Mod
@@ -1032,16 +1031,6 @@ const NpcModels = {
       .likesNPCs(Npcs.GoblinTinkerer, Npcs.Princess)
       .dislikesBiome(Biomes.Jungle)
       .dislikesNPCs(Npcs.Dryad)
-      .build(),
-    new NpcBuilder(Npcs.DrunkPrincess)
-      .lovesBiome(Biomes.Hallow)
-      .lovesNPCs(Npcs.Stylist, Npcs.Zoologist)
-      .likesBiome(Biomes.Ocean)
-      .likesNPCs(Npcs.PartyGirl, Npcs.Truffle, Npcs.Princess)
-      .dislikesBiome(Biomes.Desert)
-      .dislikesNPCs(Npcs.Tavernkeep, Npcs.TaxCollector)
-      .hatesBiome(Biomes.Underground)
-      .hatesNPCs(Npcs.Angler, Npcs.GoblinTinkerer)
       .build(),
     new NpcBuilder(Npcs.Archmage)
       .likesBiome(Biomes.Snow)
