@@ -1,15 +1,13 @@
 const Biomes = {
   Forest: "Forest",
-  Graveyard: "Graveyard",
   Underground: "Underground",
   Snow: "Snow",
   Desert: "Desert",
   Ocean: "Ocean",
   Jungle: "Jungle",
-  Dungeon: "Dungeon",
-  Space: "Space",
   Hallow: "Hallow",
   Mushroom: "Mushroom",
+  Underworld: "Underworld",
 };
 
 const Npcs = {
