@@ -215,7 +215,7 @@ const NpcModels = {
         Npcs.Princess
       )
       .dislikesBiome(Biomes.Forest)
-      .dislikesNPCs(Npcs.Truffle)
+      .dislikesNPCs(Npcs.Truffle, Npcs.Cyborg)
       .build(),
     new NpcBuilder(Npcs.Golfer)
       .lovesNPCs(Npcs.Angler)
